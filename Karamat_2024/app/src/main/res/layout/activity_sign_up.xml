@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".SignUp_Activity">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/circle" />
+    <!-- User ID input -->
+    <EditText
+        android:id="@+id/editTextUserId_SignUp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/edit_text_bg"
+        android:contentDescription="User ID input"
+        android:hint="Enter User ID"
+        android:importantForAccessibility="yes"
+        android:inputType="text"
+        android:textColor="#333333"
+        android:textSize="16sp" />
+
+
+    <!-- Password input -->
+    <EditText
+        android:id="@+id/editTextPassword1_SignUp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/edit_text_bg"
+        android:contentDescription="Password input"
+        android:hint="Enter Password"
+        android:importantForAccessibility="yes"
+        android:inputType="textPassword"
+        android:textColor="#333333"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editTextPassword2_SignUp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/edit_text_bg"
+        android:contentDescription="Password input"
+        android:hint="Re - Enter Password"
+        android:importantForAccessibility="yes"
+        android:inputType="textPassword"
+        android:textColor="#333333"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/buttonSubmit_SignUp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:text="Sign Up"
+        android:layout_marginTop="16dp"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:background="@drawable/button_background"
+        android:importantForAccessibility="yes"
+        android:contentDescription="Submit button" />
+</LinearLayout>
